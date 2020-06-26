@@ -11,6 +11,5 @@ Can be used, to e.g. periodically check nextcloud via webdav.
 ## Docker
 * [dockerhub](https://hub.docker.com/r/norbnorb/dav)
 
-
-### Docker Pull Command
+## Docker Pull Command
 ```docker pull norbnorb/dav```
