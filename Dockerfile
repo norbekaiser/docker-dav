@@ -10,6 +10,7 @@ RUN apt-get install -y --no-install-recommends lftp
 RUN apt-get install -y --no-install-recommends vim
 RUN apt-get install -y --no-install-recommends davfs2
 RUN apt-get install -y --no-install-recommends ca-certificates
-RUN apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get install -y --no-install-recommends wget
+RUN apt-get install -y --no-install-recommends curl
 RUN apt-get clean
 RUN rm -rf /var/lib/apt/lists/*
